@@ -1,0 +1,121 @@
+# ============================================
+# Django & Bootstrap .gitignore
+# ============================================
+
+# --- Django / Python ---
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Media & static files (collected)
+media/
+staticfiles/
+static/
+
+# If using WhiteNoise with a separate build step
+static_root/
+
+# --- Virtual Environments ---
+venv/
+ENV/
+env/
+.venv/
+env.bak/
+venv.bak/
+
+# --- Environment Variables ---
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.test
+
+# --- IDEs / Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# --- Bootstrap / Node (if using npm-based Bootstrap) ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Bootstrap build artifacts (if compiling SCSS)
+.sass-cache/
+*.css.map
+*.js.map
+
+# Compiled Bootstrap dist (if building from source)
+dist/
+build/
+
+# --- Misc ---
+*.bak
+*.tmp
+*.temp
+Thumbs.db
