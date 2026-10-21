@@ -1,4 +1,3 @@
-
 """Shared settings for GROW."""
 
 from pathlib import Path
@@ -166,3 +165,6 @@ LOGGING = {
         "level": env("LOG_LEVEL", default="INFO"),
     },
 }
+
+
+AUTH_USER_MODEL = "core.User"
